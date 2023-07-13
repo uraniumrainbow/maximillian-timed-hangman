@@ -3,67 +3,66 @@
 <head>
     <meta charset="UTF-8" />
     <title>Maximillian's Timed JS Quiz</title>
-    <link rel="stylesheet" href=".assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <div class="wrapper">
         <h1>Quiz</h1>
          <h2>Vanilla JavaScript Timed Quiz</h2>
      </div>
-<div class="start_btn"><button>Start Quiz</button></div>
-
-<div class="info_box">
-    <div class="info_title">Some Rules for the Quiz</div>
-    <div class="infolist">Some Rules for the Quiz
-        <div class="info">1. Click the Correct Answer to Move on</div>
-        <div class="info">2. You will have <span>1 minute </span>to complete the quiz</div>
-        <div class="info">3. Once you select an answer, it will submit automatically</div>
-    </div>
-    <div class="buttons">
-        <button class="quit">Exit Quiz</button>
-        <button class="restart">Continue</button>
-    </div>
-</div>
-    <!--Quiz box-->
-    <div class="quiz_box">
-        <header>
-            <div class="title">Coding Quiz</div>
-            <div class="timer">
-                <div class="time_left_text">Time Remaining</div>
-                <div class="timer_sec">60</div>
-            </div>
-            <div class="timeline"></div>
-        </header>
-        <section>
-            <div class="qText">
-                <!--options in JS-->
-            </div>
-            <div class="options_list">
-                <!--otions in JS-->
-            </div>
-        </section>
-        <!--footer of quiz box-->
-        <footer>
-            <div class="total_question">
-                <!--grade delivered from JS-->
-            </div>
-            <button class="next_btn">Next Question</button>
-        </footer>
-    </div>
-
-    <!--Results Screen-->
-    <div class="result_box">
-        <div class="result_box">
-            <div class="icon">
-                <i class="fas fa crown"></i>
-            </div>
-        <div class="complete_text">Congratulations! You've finished the quiz.</div>
-        <div class="score_text"><!--imported from JS--></div>
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <div class="info_box">
+        <div class="info_title">Some Rules for the Quiz</div>
+        <div class="infolist">
+            <div class="info">1. Click the Correct Answer to Move on</div>
+            <div class="info">2. You will have <span>1 minute </span>to complete the quiz</div>
+            <div class="info">3. Once you select an answer, it will submit automatically</div>
         </div>
         <div class="buttons">
-            <button class="quit">Quit Quiz</button>
-            <button class="restart">Replay Quiz</button>
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
         </div>
     </div>
-</body>
-</html>
+        <!--Quiz box-->
+        <div class="quiz_box">
+            <header>
+                <div class="title">Coding Quiz</div>
+                <div class="timer">
+                    <div class="time_left_text">Time Remaining</div>
+                    <div class="timer_sec">60</div>
+                </div>
+                <div class="timeline"></div>
+            </header>
+            <section>
+                <div class="qText">
+                    <!--options in JS-->
+                </div>
+                <div class="options_list">
+                    <!--otions in JS-->
+                </div>
+            </section>
+            <!--footer of quiz box-->
+            <footer>
+                <div class="total_question">
+                    <!--grade delivered from JS-->
+                </div>
+                <button class="next_btn">Next Question</button>
+            </footer>
+        </div>
+
+        <!--Results Screen-->
+        <div class="result_box">
+            <div class="result_box">
+                <div class="icon">
+                    <i class="fas fa crown"></i>
+                </div>
+            <div class="complete_text">Congratulations! You've finished the quiz.</div>
+            <div class="score_text"><!--imported from JS--></div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Quit Quiz</button>
+                <button class="restart">Replay Quiz</button>
+            </div>
+        </div>
+    </body>
+    </html>
