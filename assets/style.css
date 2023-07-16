@@ -48,8 +48,18 @@ body{
 }
 
 
-.info_box.activeInfo,
-.quiz_box.activeQuiz,
+.info_box.activeInfo {
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50, -50) scale(1);
+}
+.quiz_box.activeQuiz{
+    opacity: 1;
+    z-index: 5;
+    pointer-events: auto;
+    transform: translate(-50, -50) scale(1);
+}
 .result_box.activeResult {
     opacity: 1;
     z-index: 5;
@@ -60,18 +70,30 @@ body{
 .start_btn button {
     font-size: 24px;
     font-weight: 500;
-    color:lavender;
+    color: #004085;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: darkgray;
+    background: antiquewhite;
+    cursor: pointer;
+}
+
+.start_btn button:hover {
+    font-size: 24px;
+    font-weight: 500;
+    color: #004085;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: tan;
     cursor: pointer;
 }
 
 .info_box {
     width: 540px;
-    background: darkgray;
+    background: antiquewhite;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(.9);
     opacity: 0;
@@ -119,13 +141,13 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid blue;
+    border: 1px solid darkblue;
     transition: all 0.3s ease;
 }
 
 .quiz_box {
     width: 540px;
-    background: darkgray;
+    background: lightgrey;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(.9);
     opacity: 0;
@@ -299,8 +321,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #007bff;
-    border: 1px solid #007bff;
+    background: dodgerblue;
+    border: 1px solid dodgerblue;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -371,25 +393,25 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #007bff;
+    border: 1px solid dodgerblue;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
-    color: #fff;
-    background: #007bff;
+    color: azure;
+    background: #004085;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #03162b;
 }
 
 .buttons button.quit{
-    color: #007bff;
-    background: #fff;
+    color: #004085;
+    background: azure;
 }
 
 .buttons button.quit:hover{
-    color: #fff;
-    background: #007bff;
+    color: azure;
+    background: #004085;
 }
