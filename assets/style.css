@@ -147,7 +147,7 @@ body{
 
 .quiz_box {
     width: 540px;
-    background: lightgrey;
+    background: darkslateblue;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(.9);
     opacity: 0;
@@ -160,7 +160,7 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background-color: lightgray;
+    background-color: darkslateblue;
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -192,12 +192,12 @@ body{
     font-weight: 500;
     height: 30px;
     width: 45px;
-    color: lightgrey;
+    color: black;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: darkslategray;
-    border: 1px solid darkslategray;
+    background: lavender;
+    border: 1px solid blueviolet;
     user-select: none;
 }
 
@@ -211,7 +211,7 @@ body{
 
 section{
     padding: 25px 30px 20px 30px;
-    background: darkgray;
+    background: antiquewhite;
 }
 
 section .qText {
@@ -276,18 +276,6 @@ section .option_list .option .icon{
     line-height: 24px;
 }
 
-.option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
-    background: #d4edda;
-}
-
-.option_list .option .icon.cross{
-    color: #a42834;
-    background: #f8d7da;
-    border-color: #a42834;
-}
-
 footer{
     height: 60px;
     padding: 0 30px;
@@ -341,7 +329,7 @@ footer button.show{
 }
 
 .result_box{
-    background: #fff;
+    background: antiquewhite;
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
