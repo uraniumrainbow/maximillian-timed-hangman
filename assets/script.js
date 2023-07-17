@@ -128,7 +128,7 @@ next_btn.onclick = ()=>{
         qCounter(qNumb);
         clearInterval(counter);
         clearInterval(counterLine);
-        startTimer(timeValue);
+        startTimer(timeCount.textContent);
         timeText.textContent = "Time Left";
         next_btn.classList.remove("show");
     }else{
@@ -169,8 +169,8 @@ function optionSelected(answer){
     }else{
         answer.classList.add("incorrect");
         console.log("Incorrect");
-        timeValue = timeValue - 5; //Check this line
-        startTimer(timeValue);
+        time = timeCount.textContent - 5; //Check this line
+        startTimer(time);
 
         for(i=0; i < allOptions; i++){
             if(option_list.children[i].textContent == correctAns){
